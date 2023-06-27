@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: [Hanken Grotesk];
+    src: url(https://fonts.google.com/specimen/Hanken+Grotesk);
+    font-weight: 500, 700, 800;
+} 
+
+body {
+    border-radius: 100px;
+    text-align: center;
+    font-family: Hanken Grotesk;
+}
+
+
+span{
+    opacity: 75%;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+.general{
+    width: 500px;
+    height: 375px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    margin:0 auto;
+    box-shadow: 10px 10px 10px hsla(241, 100%, 89%, 0.5);
+}
+
+.one{
+    width: 250px;
+    height: 375px;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 40%),hsl(241, 81%, 60%));
+    float: left;
+    color: white;
+}
+
+#one1{
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background: linear-gradient(hsla(241, 72%, 38%, 1),hsla(256, 72%, 62%, 0));
+    margin-top: -18px;
+}
+
+#one1 h1 {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    margin-bottom: 0%;
+}
+
+#font{
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.two{
+    width: 200px;
+    float: left;
+    padding-left: 23px;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.c1{
+    color: hsl(0, 100%, 67%);
+    background: hsla(0, 100%, 67%, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.c2{
+    color: hsl(39, 100%, 56%);
+    background: hsla(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.c3{
+    color: hsl(166, 100%, 37%);
+    background: hsla(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+}
+.c4{
+    color: hsl(234, 85%, 45%);
+    background: hsla(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+}
+.c1 #img1, .c2 #img2, .c3 #img3, .c4 #img4{
+    margin-left: 10px;
+}
+.c1 #word1, .c2 #word2, .c3 #word3, .c4 #word4{
+    margin-left: 10px;
+}
+.c1 #no1, .c2 #no2, .c3 #no3, .c4 #no4{
+    margin-left: auto;
+}
+.c1 #hun1, .c2 #hun2, .c3 #hun3, .c4 #hun4{
+    margin-left: 4px;
+    margin-right: 15px;
+}
+
+.c1,.c2, .c3, .c4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+    font-size: small;
+}
+
+.btn button{
+    color: black;
+    background: black(224, 30%, 27%);
+    border: none;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.btn button:hover{
+    background: linear-gradient(hsl(252, 100%, 40%),hsl(241, 81%, 60%));
+    color: black;
+    cursor: pointer;
+    transition: all 200ms ease;
